@@ -3,7 +3,9 @@ using namespace std;
 
 int main(){
     const int monthsInYear = 12;
-    double principal = 10000.0;
+    double principal = 0.0;
+    cout<<"Enter the principal amount: "<<endl;;
+    cin>>principal;
     double interest = 0.05;
     int yearOfLoan = 30;
 
